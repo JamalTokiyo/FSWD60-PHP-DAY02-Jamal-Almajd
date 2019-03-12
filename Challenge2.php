@@ -1,20 +1,4 @@
-<?php
-$host = "127.0.0.1";
-$username = "root";
-$password = "";
-$db = "majd_jamal";
-$connect = mysqli_connect($host,$username,$password,$db);
-		if( mysqli_connect_error())
-		{
 
-		die("connect to database field".mysqli_connect_error());
-	}
-	else
-	{
-		echo "database is connect";
-	}
-
-?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -88,6 +72,3 @@ $connect = mysqli_connect($host,$username,$password,$db);
 </body>
 </html>
 
-<?php
-mysqli_close($connect);
-?>

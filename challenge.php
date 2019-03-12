@@ -44,9 +44,7 @@
 <button type="button" class="btn btn-success btn-lg btn-block">Submit</button>
 </form>
 
-  <?php 
-   
-   ?>
+  
    </div>
 </body>
 </html>
